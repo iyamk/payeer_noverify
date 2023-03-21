@@ -19,7 +19,7 @@ Useragent can be passed in the second parameter, by default it is: Mozilla/5.0 (
 
 ```$payeer->history();```
 
-Returns a list of transactions. The result is similar to: https://payeercom.docs.apiary.io/#reference/0/authorization-check/history-of-transactions
+Returns a list of transactions. The result is similar to: https://payeercom.docs.apiary.io/#reference/0/history-of-transactions
 
 But not all data is returned, but only: date, type, from, creditedAmount, creditedCurrency, to, debitedAmount, debitedCurrency, paySystem, status, id, shopId, shopOrderId, isApi, comment. And also shopUrl which is not in the documentation.
 
